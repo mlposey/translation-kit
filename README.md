@@ -33,7 +33,7 @@ translator.translate(new Text("test"), Language.NL, possibleResults -> {
 Error handling relies on an additional consumer that handles a TranslationError.
 You can retrieve the service's response code from such errors and act accordingly.
 ```Java
-Translator translator = Translators.get(com.github.mlposey.Key.YANDEX);
+Translator translator = Translators.get(Key.YANDEX);
 
 translator.translate(new Text("test"), Language.NL,
     possibleResults -> {
