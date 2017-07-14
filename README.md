@@ -21,7 +21,7 @@ in order for the values to be recognized.
 ## Using Translators
 Translators perform operations asynchronously and are easily used with lambdas.
 You can perform simple operations, ignoring possible errors. Although this is
-isn't suggest, here is an example:
+isn't suggested, here is an example:
 ```Java
 Translator translator = Translators.get(Key.YANDEX);
 
